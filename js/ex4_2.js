@@ -12,7 +12,7 @@ frm.addEventListener("submit",(e) =>{
     if (masculino) {
         peso= 30*Math.pow(altura,2) //valores irreais de imc//
     }else{
-        peso= 30*Math.pow(altura,2) //valores irreais de imc//
+        peso= 29*Math.pow(altura,2) //valores irreais de imc//
     }
 
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} kg`
